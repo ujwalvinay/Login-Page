@@ -1,0 +1,88 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3F61A6;
+}
+
+.container
+{
+    background-color: white;
+}
+.logo
+{
+    width: 120px;
+    text-align: center;
+    
+}
+h3
+{
+    font-weight: 700;
+}
+.google-btn
+{
+    display: flex;
+    gap: 2rem;
+    padding: 1rem 0;
+    border: 1px solid black;
+    padding:.4rem 2rem;
+    margin: 1rem 0;
+}
+.option
+{
+    display: flex;
+    gap: 1rem;
+    padding: .5rem 0;
+}
+hr
+{
+    width: 30px;
+}
+.form-check
+{
+    display: flex;
+    justify-content: space-between;
+}
+label
+{
+    font-weight: 600;
+}
+
+.login
+{
+    width: 100%;
+    border: 1px solid black;
+}
+
+.sign-up
+{
+    opacity: .8rem;
+    padding: 1rem 0;
+}
+#bold-sign
+{
+    font-weight: 700;
+}
+.banner-img
+{
+    width: 120%;
+    vertical-align: middle;
+}
+.col-md-8
+{
+    background-color: #F2A81D;
+    padding: 2rem;
+}
+.form-control,.form-control:focus, .form-control:active {
+    background: transparent;
+    border: 1px solid white;
+}
+
+
