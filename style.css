@@ -15,6 +15,8 @@ body
 .container
 {
     background-color: white;
+    width: 70%;
+    border-radius: 20px;
 }
 .logo
 {
@@ -34,6 +36,8 @@ h3
     border: 1px solid black;
     padding:.4rem 2rem;
     margin: 1rem 0;
+    
+    font-weight: 600;
 }
 .option
 {
@@ -59,8 +63,12 @@ label
 {
     width: 100%;
     border: 1px solid black;
+    font-weight: 600;
 }
-
+.login:hover
+{
+    background-color: rgb(251, 128, 56);
+}
 .sign-up
 {
     opacity: .8rem;
@@ -75,14 +83,41 @@ label
     width: 120%;
     vertical-align: middle;
 }
-.col-md-8
+.col-md-5
 {
     background-color: #F2A81D;
     padding: 2rem;
+    border-radius: 20px;
 }
 .form-control,.form-control:focus, .form-control:active {
     background: transparent;
     border: 1px solid white;
+}
+
+@media screen and (max-width:540px) {
+    .google-btn
+    {
+        display: block;
+    }
+    .google-btn .fa-angle-right
+    {
+        display: none;
+    }
+    .col-md-6
+    {
+        display: none;
+    }
+    .container
+    {
+        width: 90%;
+    }
+    .form-check
+    {
+        flex-direction: column;
+        gap: 10px;
+        margin: auto;
+        justify-content: center;
+    }
 }
 
 
